@@ -1,0 +1,52 @@
+body{
+    background-image: url(laikaa.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f2f2f2;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+    margin:0;
+}
+.quiz-container{
+    background-color:#5c56a391;
+    width:600px;
+    padding:60px;
+
+    border-radius:10px;
+
+    box-shadow:#34305f91;
+
+    text-align:center;
+    color: #fefeff;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin:5px 0;
+
+    border:none;
+    border-radius:5px;
+
+    background-color:#45407e;
+    color:#ffffff;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #3c386b;
+}
+
+#resultado {
+    font-size:bold;
+    margin-top:20px;
+}
